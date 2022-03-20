@@ -6,6 +6,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Dresses from './components/Dresses';
 import Shoes from './components/Shoes';
+import Accessories from './components/Accessories'
 
 const App = () => {
 
@@ -16,10 +17,7 @@ const App = () => {
    <Header title="Móda"/>
    <Dresses />
    <Shoes />
-  
- 
-  
-   
+   <Accessories />
    <Footer year="2022" author={author} />
  
      </div>
